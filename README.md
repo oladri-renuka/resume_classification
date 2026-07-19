@@ -23,7 +23,7 @@ It involves **data preprocessing, visualization, feature engineering, class bala
 
 ---
 
-## 📊 Data Exploration
+## Data Exploration
 
 - **Categories Distribution (Top 5)**:
   - Java Developer: 84 resumes
@@ -34,7 +34,7 @@ It involves **data preprocessing, visualization, feature engineering, class bala
 
 ---
 
-## 🛠️ Data Preprocessing
+## Data Preprocessing
 
 1. **Text Cleaning**  
    - Removed URLs, hashtags, mentions, non-ASCII characters, punctuation.
@@ -69,7 +69,7 @@ The following classifiers were trained and evaluated:
 
 ---
 
-## 📈 Results
+## Results
 
 | Model                        | Train Accuracy | Test Accuracy | Precision | Recall | F1 Score |
 | ---------------------------- | -------------- | ------------- | --------- | ------ | -------- |
@@ -85,5 +85,5 @@ The following classifiers were trained and evaluated:
 | Linear Discriminant Analysis | 0.9979         | 0.9918        | 0.9929    | 0.9918 | 0.9920   |
 
 
-✅ Logistic Regression and SVM achieved the **best performance (99.48% accuracy)**.  
+Logistic Regression and SVM achieved the **best performance (99.48% accuracy)**.  
 
